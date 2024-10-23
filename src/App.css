@@ -5,17 +5,31 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   background-color: aliceblue;
-  /* text-align: center; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: 45px 0px 25px 0px;
+}
+
+.direction {
+  margin-bottom: 30px;
+}
+
+.scoreboard {
+  margin-top: 45px;
 }
 
 .pokemonImage {
-  width: 250px;
+  width: 220px;
   height: auto;
   background-color: white;
   padding: 0;
-  border: 1px solid black;
   border-radius: 15px;
 }
 
@@ -26,8 +40,8 @@ h2 {
 .card {
   overflow: visible;
   background-color: powderblue;
-  padding: 15px;
-  border: 1px solid black;
+  padding: 10px;
+  border-radius: 15px;
   transition: box-shadow 0.3s ease;
 }
 
@@ -41,5 +55,5 @@ h2 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 20px;
 }
