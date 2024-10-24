@@ -1,5 +1,5 @@
 /* child component of parent CardSpread component, with score and bestScore props 
-score and bestScore are state variables in CardSpread */
+for score and bestScore, which are state variables in CardSpread */
 function RightSideScoreboard({ score, bestScore }) {
   return (
     <div className="scoreboard">
